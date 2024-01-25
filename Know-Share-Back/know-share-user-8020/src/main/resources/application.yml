@@ -1,0 +1,37 @@
+server:
+  port: 8020
+
+spring:
+  application:
+    name: user
+  rabbitmq:
+    port: 5672
+    host: xx.xx.xx.xx
+    virtual-host: /share
+    username: username
+    password: password
+    listener:
+      simple:
+        prefetch: 1
+  jpa:
+    show-sql: true
+    open-in-view: true
+    hibernate:
+      ddl-auto: create
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://xxx.xxx.xxx.xx:3306/know_share?cachePrepStmts=true&reWriteBatchedInserts=true
+    username: username
+    password: password
+    type: com.alibaba.druid.pool.DruidDataSource
+
+  data:
+    redis:
+      host: xxx.xxx.xxx.xx
+      port: 6379
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      default: http://localhost:8761/eureka/

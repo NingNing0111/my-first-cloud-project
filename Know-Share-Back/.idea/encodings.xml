@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/know-share-admin-8000/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/know-share-advertise-8100/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/know-share-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/know-share-elasticsearch-8090/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/know-share-email-8070/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/know-share-eureka-8761/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/know-share-gateway-10010/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/know-share-knowledge-content-8060/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/know-share-knowledge-content-analyze-8050/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/know-share-logs-8040/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/know-share-register-8120/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/know-share-report-8130/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/know-share-sensitive-8030/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/know-share-uaa-8110/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/know-share-user-8020/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/know-share-user-analyze-8010/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/know-share-video-8140/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-mq-test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

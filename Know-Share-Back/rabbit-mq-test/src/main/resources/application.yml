@@ -1,0 +1,15 @@
+server:
+  port: 8170
+
+spring:
+  application:
+    name: rabbit-message
+  rabbitmq:
+    port: 5672
+    host: xx.xx.xx.xx
+    virtual-host: /share
+    username: username
+    password: password
+    listener:
+      simple:
+        prefetch: 1

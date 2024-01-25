@@ -1,0 +1,33 @@
+server:
+  port: 8140
+spring:
+  application:
+    name: video
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://xx.xx.xx.xx/know_share?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC&serverTimezone=GMT%2B8
+    username: username
+    password: password
+  servlet:
+    multipart:
+      max-file-size: 128MB
+      max-request-size: 128MB
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+
+minio:
+  # minio通信地址
+  endpoint: "http://xx.xx.xx.xx:9000/"
+  #文件地址
+  fileHost: "http://xx.xx.xx.xx:9000/"
+  # minio登录用户名
+  access-key: username
+  # minio登录密码
+  secret-key: password
+  # 项目固定的bucketName
+  bucketName: bucketName

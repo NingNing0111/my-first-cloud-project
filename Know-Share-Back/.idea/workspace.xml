@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d9164d7e-6bbe-47ea-9da8-390e3afeef59" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6513b33a-857c-4c03-8aac-92c7429d2644.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6513b33a-857c-4c03-8aac-92c7429d2644/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6513b33a-857c-4c03-8aac-92c7429d2644/storage_v2/_src_/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6513b33a-857c-4c03-8aac-92c7429d2644/storage_v2/_src_/schema/know_share.K61jGg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6513b33a-857c-4c03-8aac-92c7429d2644/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6513b33a-857c-4c03-8aac-92c7429d2644/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6513b33a-857c-4c03-8aac-92c7429d2644/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6513b33a-857c-4c03-8aac-92c7429d2644/storage_v2/_src_/schema/sys.zb4BAA.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-advertise-8100/src/main/java/org/ygcxy/controller/AdvertiseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-advertise-8100/src/main/java/org/ygcxy/controller/AdvertiseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-advertise-8100/src/main/java/org/ygcxy/dto/AdvertiseRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-advertise-8100/src/main/java/org/ygcxy/dto/AdvertiseRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-advertise-8100/src/main/java/org/ygcxy/service/AdvertiseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-advertise-8100/src/main/java/org/ygcxy/service/AdvertiseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-advertise-8100/src/main/java/org/ygcxy/service/impl/AdvertiseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-advertise-8100/src/main/java/org/ygcxy/service/impl/AdvertiseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-advertise-8100/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-advertise-8100/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-elasticsearch-8090/src/main/java/org/ygcxy/ElasticsearchApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-elasticsearch-8090/src/main/java/org/ygcxy/ElasticsearchApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-elasticsearch-8090/src/main/java/org/ygcxy/common/RabbitMqConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-elasticsearch-8090/src/main/java/org/ygcxy/common/RabbitMqConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-elasticsearch-8090/src/main/java/org/ygcxy/controller/ESController.java" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-elasticsearch-8090/src/main/java/org/ygcxy/controller/ESController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-elasticsearch-8090/src/main/java/org/ygcxy/entity/KnowledgeContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-elasticsearch-8090/src/main/java/org/ygcxy/entity/KnowledgeContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-elasticsearch-8090/src/main/java/org/ygcxy/listener/KnowledgeContentListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-elasticsearch-8090/src/main/java/org/ygcxy/listener/KnowledgeContentListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-elasticsearch-8090/src/main/java/org/ygcxy/repository/KnowledgeContentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-elasticsearch-8090/src/main/java/org/ygcxy/repository/KnowledgeContentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-elasticsearch-8090/src/main/java/org/ygcxy/service/KnowledgeContentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-elasticsearch-8090/src/main/java/org/ygcxy/service/KnowledgeContentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-elasticsearch-8090/src/main/java/org/ygcxy/service/impl/KnowledgeContentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-elasticsearch-8090/src/main/java/org/ygcxy/service/impl/KnowledgeContentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-elasticsearch-8090/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-elasticsearch-8090/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-elasticsearch-8090/src/test/java/org/ygcxy/ElasticsearchApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-elasticsearch-8090/src/test/java/org/ygcxy/ElasticsearchApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-email-8070/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-email-8070/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-gateway-10010/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-gateway-10010/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-gateway-10010/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-gateway-10010/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-knowledge-content-8060/src/main/java/org/ygcxy/KnowledgeContentApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-knowledge-content-8060/src/main/java/org/ygcxy/KnowledgeContentApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-knowledge-content-8060/src/main/java/org/ygcxy/comment/RabbitMqConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-knowledge-content-8060/src/main/java/org/ygcxy/comment/RabbitMqConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-knowledge-content-8060/src/main/java/org/ygcxy/controller/CommentsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-knowledge-content-8060/src/main/java/org/ygcxy/controller/CommentsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-knowledge-content-8060/src/main/java/org/ygcxy/controller/FavoritesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-knowledge-content-8060/src/main/java/org/ygcxy/controller/FavoritesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-knowledge-content-8060/src/main/java/org/ygcxy/controller/KnowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-knowledge-content-8060/src/main/java/org/ygcxy/controller/KnowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-knowledge-content-8060/src/main/java/org/ygcxy/controller/LikesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-knowledge-content-8060/src/main/java/org/ygcxy/controller/LikesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-knowledge-content-8060/src/main/java/org/ygcxy/dto/request/KnowDtoRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-knowledge-content-8060/src/main/java/org/ygcxy/dto/request/KnowDtoRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-knowledge-content-8060/src/main/java/org/ygcxy/entity/Comments.java" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-knowledge-content-8060/src/main/java/org/ygcxy/entity/Comments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-knowledge-content-8060/src/main/java/org/ygcxy/entity/KnowledgeContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-knowledge-content-8060/src/main/java/org/ygcxy/entity/KnowledgeContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-knowledge-content-8060/src/main/java/org/ygcxy/mapper/KnowMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-knowledge-content-8060/src/main/java/org/ygcxy/mapper/KnowMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-knowledge-content-8060/src/main/java/org/ygcxy/service/Impl/CommentsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-knowledge-content-8060/src/main/java/org/ygcxy/service/Impl/CommentsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-knowledge-content-8060/src/main/java/org/ygcxy/service/Impl/FavoritesServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-knowledge-content-8060/src/main/java/org/ygcxy/service/Impl/FavoritesServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-knowledge-content-8060/src/main/java/org/ygcxy/service/Impl/KnowServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-knowledge-content-8060/src/main/java/org/ygcxy/service/Impl/KnowServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-knowledge-content-8060/src/main/java/org/ygcxy/service/Impl/LikeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-knowledge-content-8060/src/main/java/org/ygcxy/service/Impl/LikeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-knowledge-content-8060/src/main/java/org/ygcxy/service/KnowService.java" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-knowledge-content-8060/src/main/java/org/ygcxy/service/KnowService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-knowledge-content-8060/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-knowledge-content-8060/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-knowledge-content-8060/src/test/java/org/ygcxy/KnowledgeContentApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-knowledge-content-8060/src/test/java/org/ygcxy/KnowledgeContentApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-knowledge-content-analyze-8050/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-knowledge-content-analyze-8050/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-knowledge-content-analyze-8050/src/main/java/org/ygcxy/KnowledgeContentAnalyzeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-knowledge-content-analyze-8050/src/main/java/org/ygcxy/KnowledgeContentAnalyzeApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-knowledge-content-analyze-8050/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-knowledge-content-analyze-8050/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-logs-8040/src/main/java/org/ygcxy/controller/LogsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-logs-8040/src/main/java/org/ygcxy/controller/LogsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-logs-8040/src/main/java/org/ygcxy/listener/LogsQueueListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-logs-8040/src/main/java/org/ygcxy/listener/LogsQueueListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-logs-8040/src/main/java/org/ygcxy/service/LogsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-logs-8040/src/main/java/org/ygcxy/service/LogsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-logs-8040/src/main/java/org/ygcxy/service/impl/LogsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-logs-8040/src/main/java/org/ygcxy/service/impl/LogsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-logs-8040/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-logs-8040/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-register-8120/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-register-8120/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-report/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-sensitive-8030/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-sensitive-8030/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-sensitive-8030/src/main/java/org/ygcxy/SensitiveApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-sensitive-8030/src/main/java/org/ygcxy/SensitiveApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-sensitive-8030/src/main/java/org/ygcxy/controller/pre/CloudCheckController.java" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-sensitive-8030/src/main/java/org/ygcxy/controller/pre/CloudCheckController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-sensitive-8030/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-sensitive-8030/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-uaa-8110/src/main/java/org/ygcxy/controller/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-uaa-8110/src/main/java/org/ygcxy/controller/AuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-uaa-8110/src/main/java/org/ygcxy/service/impl/AuthenticationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-uaa-8110/src/main/java/org/ygcxy/service/impl/AuthenticationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-uaa-8110/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-uaa-8110/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-user-8020/src/main/java/org/ygcxy/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-user-8020/src/main/java/org/ygcxy/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-user-8020/src/main/java/org/ygcxy/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-user-8020/src/main/java/org/ygcxy/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-user-8020/src/main/java/org/ygcxy/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-user-8020/src/main/java/org/ygcxy/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-user-8020/src/main/java/org/ygcxy/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-user-8020/src/main/java/org/ygcxy/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-user-8020/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-user-8020/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-user-8020/src/test/java/org/ygcxy/UserApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-user-8020/src/test/java/org/ygcxy/UserApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-user-analyze-8010/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-user-analyze-8010/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-user-analyze-8010/src/main/java/org/ygcxy/UserAnalyzeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-user-analyze-8010/src/main/java/org/ygcxy/UserAnalyzeApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/know-share-user-analyze-8010/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/know-share-user-analyze-8010/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbit-mq-test/src/main/java/org/ygcxy/common/RabbitMqConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-mq-test/src/main/java/org/ygcxy/common/RabbitMqConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbit-mq-test/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-mq-test/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbit-mq-test/src/test/java/org/ygcxy/RabbitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-mq-test/src/test/java/org/ygcxy/RabbitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbit-mq-test/src/test/java/org/ygcxy/createQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-mq-test/src/test/java/org/ygcxy/createQueueTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2bInQ7Gc9oRdU4sd87VZrNfPHA7" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.sourceCode",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.AdminApplication">
+    <configuration name="ElasticsearchApplicationTests.findByKcIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="know-share-elasticsearch-8090" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ygcxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.ygcxy" />
+      <option name="MAIN_CLASS_NAME" value="org.ygcxy.ElasticsearchApplicationTests" />
+      <option name="METHOD_NAME" value="findByKcIdTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElasticsearchApplicationTests.likeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="know-share-elasticsearch-8090" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ygcxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.ygcxy" />
+      <option name="MAIN_CLASS_NAME" value="org.ygcxy.ElasticsearchApplicationTests" />
+      <option name="METHOD_NAME" value="likeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="know-share-email-8070" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="know-share-email-8070" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="know-share-admin-8000" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.ygcxy.AdminApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ygcxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdvertiseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="know-share-advertise-8100" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.ygcxy.AdvertiseApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ygcxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="know-share-gateway-10010" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.ygcxy.GatewayApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ygcxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SensitiveApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="know-share-sensitive-8030" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.ygcxy.SensitiveApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ygcxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.AdvertiseApplication" />
+        <item itemvalue="Spring Boot.SensitiveApplication" />
+        <item itemvalue="JUnit.ElasticsearchApplicationTests.findByKcIdTest" />
+        <item itemvalue="JUnit.ElasticsearchApplicationTests.likeTest" />
+        <item itemvalue="Spring Boot.GatewayApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d9164d7e-6bbe-47ea-9da8-390e3afeef59" name="Changes" comment="" />
+      <created>1705911445647</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705911445647</updated>
+      <workItem from="1705911449778" duration="372000" />
+      <workItem from="1705911827543" duration="6408000" />
+      <workItem from="1705925336561" duration="166000" />
+      <workItem from="1705925513424" duration="2752000" />
+      <workItem from="1705971884871" duration="25184000" />
+      <workItem from="1706015811790" duration="60147000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,44 @@
+server:
+  port: 8070
+
+spring:
+  application:
+    name: email
+  rabbitmq:
+    port: 5672
+    host: xx.xx.xx.xx
+    virtual-host: /share
+    username: username
+    password: password
+    listener:
+      simple:
+        prefetch: 1
+  mail:
+    live-time: 5
+    protocol: smtp
+    port: 465
+    host: smtp.163.com
+    username: mnzdna@163.com
+    password: xxxxxxxxxxxxxxx
+    default-encoding: UTF-8
+    properties:
+      mail:
+        smtp:
+          auth: true
+          socketFactory:
+            class: javax.net.ssl.SSLSocketFactory
+          starttls:
+            enable: true
+            required: true
+  data:
+    redis:
+      host: xxx.xx.xx.xxx
+      port: 6379
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+  instance:
+    prefer-ip-address: true

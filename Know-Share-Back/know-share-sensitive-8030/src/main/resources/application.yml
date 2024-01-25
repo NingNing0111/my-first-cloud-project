@@ -1,0 +1,28 @@
+server:
+  port: 8030
+
+spring:
+  application:
+    name: sensitive
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://xxx.xx.xx.xxx:3306/know_share?reWriteBatchedInserts=true&rewriteBatchedStatements=true
+    username: username
+    password: password
+    type: com.alibaba.druid.pool.DruidDataSource
+  jpa:
+    show-sql: true
+    open-in-view: true
+    properties:
+      hibernate:
+        jdbc:
+          batch_size: 30
+    hibernate:
+      ddl-auto: create
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true

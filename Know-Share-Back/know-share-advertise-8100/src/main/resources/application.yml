@@ -1,0 +1,35 @@
+server:
+  port: 8100
+
+spring:
+  application:
+    name: advertise
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://xxx.xx.xx.xxx:3306/know_share?cachePrepStmts=true&reWriteBatchedInserts=true
+    username: username
+    password: password
+    type: com.alibaba.druid.pool.DruidDataSource
+  jpa:
+    show-sql: true
+    open-in-view: true
+
+  rabbitmq:
+    port: 5672
+    host: xx.xx.xx.xx
+    virtual-host: /share
+    username: username
+    password: password
+    listener:
+      simple:
+        prefetch: 1
+  boot:
+    admin:
+      client:
+        url: http://localhost:8000
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true

@@ -1,0 +1,22 @@
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      default: http://localhost:8761/eureka/
+
+server:
+  port: 8120
+
+spring:
+  application:
+    name: register
+  rabbitmq:
+    port: 5672
+    host: xx.xx.xx.xx
+    virtual-host: /share
+    username: username
+    password: password
+    listener:
+      simple:
+        prefetch: 1

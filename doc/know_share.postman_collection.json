@@ -1,0 +1,1341 @@
+{
+	"info": {
+		"_postman_id": "ce30fa2f-74be-4a36-ae9d-1a752e4cde4c",
+		"name": "know_share",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30816728",
+		"_collection_link": "https://lunar-shuttle-331624.postman.co/workspace/New-Team-Workspace~9aa882e0-ced8-4c52-ad05-7a908735e3ee/collection/30816728-ce30fa2f-74be-4a36-ae9d-1a752e4cde4c?action=share&source=collection_link&creator=30816728"
+	},
+	"item": [
+		{
+			"name": "网关统一接口",
+			"item": [
+				{
+					"name": "登录",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"2043393364@qq.com\",\n    \"password\": \"123123\"\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:10010/api/v1/uaa/auth",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"uaa",
+								"auth"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "获取验证码",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:10010/api/v1/register/code/daoguanpro@gmail.com",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"register",
+								"code",
+								"daoguanpro@gmail.com"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "注册接口",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:10010/api/v1/register/new",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"register",
+								"new"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "通过邮箱查询用户",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:10010/api/v1/user/email/zdncode@gmail.com",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"user",
+								"email",
+								"zdncode@gmail.com"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "根据用户ID封禁账号",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:10010/api/v1/user/11",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"user",
+								"11"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "根据ID删除用户",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:10010/api/v1/user/30",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"user",
+								"30"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "分页获取用户",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:10010/api/v1/user/page/0/size/10",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"user",
+								"page",
+								"0",
+								"size",
+								"10"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "分页查询广告",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:10010/api/v1/advertise/page/0/size/10",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"advertise",
+								"page",
+								"0",
+								"size",
+								"10"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ID查询广告",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:10010/api/v1/advertise/11",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"advertise",
+								"11"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ID删除广告",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:10010/api/v1/advertise/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"advertise",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "修改广告",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n     \"title\": \"这是一段广告3\",\n    \"description\": \"这个广告的描述已被我修改哦\",\n    \"imageUrl\": \"https://k.sinaimg.cn/n/sinacn20200103s/110/w580h330/20200103/62e3-imrkkfx2993211.jpg/w700d1q75cms.jpg\",\n    \"targetUrl\": \"https://pgthinker.me\",\n    \"startDate\": \"2024-01-12\",\n    \"endDate\": \"2024-01-10\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8100/api/v1/advertise/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8100",
+							"path": [
+								"api",
+								"v1",
+								"advertise",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "获取系统日志",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:10010/api/v1/logs/system/page/50/size/100",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"logs",
+								"system",
+								"page",
+								"50",
+								"size",
+								"100"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "获取用户日志",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:10010/api/v1/logs/user/page/0/size/10",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"logs",
+								"user",
+								"page",
+								"0",
+								"size",
+								"10"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "敏感词添加",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"word\": \"宁宁漆\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:10010/api/v1/sensitive/add",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"sensitive",
+								"add"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "刷新敏感词库",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:10010/api/v1/sensitive/update",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"sensitive",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "检测文本中是否包含敏感词",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"text\": \"我是刁进平下台\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:10010/api/v1/sensitive/check",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"sensitive",
+								"check"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "删除敏感词",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:10010/api/v1/sensitive/宁宁漆",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"sensitive",
+								"宁宁漆"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "知识内容关键字搜索",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:10010/api/v1/es/content/page/0/size/10?keyword=知识",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"es",
+								"content",
+								"page",
+								"0",
+								"size",
+								"10"
+							],
+							"query": [
+								{
+									"key": "keyword",
+									"value": "知识"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "标题关键字查询",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:10010/api/v1/es/title/page/0/size/10?keyword=内容",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"es",
+								"title",
+								"page",
+								"0",
+								"size",
+								"10"
+							],
+							"query": [
+								{
+									"key": "keyword",
+									"value": "内容"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "内容概述查询",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:10010/api/v1/es/overview/page/0/size/10?keyword=内容",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"es",
+								"overview",
+								"page",
+								"0",
+								"size",
+								"10"
+							],
+							"query": [
+								{
+									"key": "keyword",
+									"value": "内容"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "分类标签查询",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:10010/api/v1/es/category/page/0/size/10?keyword=测试",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"es",
+								"category",
+								"page",
+								"0",
+								"size",
+								"10"
+							],
+							"query": [
+								{
+									"key": "keyword",
+									"value": "测试"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "分页查询知识内容",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:10010/api/v1/es/page/0/size/10",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"es",
+								"page",
+								"0",
+								"size",
+								"10"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "发布知识内容",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"kcTitle\": \"这是张牛逼发布的知识内容8\",\n    \"kcOverview\": \"这是具体的内容的大纲8\",\n    \"userId\": 31,\n    \"kcCategory\": [\n        \"标签\",\n        \"知识内容\"\n    ],\n    \"content\": \"这是发布的知识内容的具体内容宁宁漆8\",\n    \"isPublish\": true\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:10010/api/v1/know/add",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"know",
+								"add"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "知识详情查询",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:10010/api/v1/es/17",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"es",
+								"17"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "删除知识内容",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:10010/api/v1/know/39",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"know",
+								"39"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "观看量分页排序",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:10010/api/v1/es/hot/page/0/size/10",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"es",
+								"hot",
+								"page",
+								"0",
+								"size",
+								"10"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "评论数分页排序",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:10010/api/v1/es/comment/page/0/size/10",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"es",
+								"comment",
+								"page",
+								"0",
+								"size",
+								"10"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "收藏量分页排序",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:10010/api/v1/es/collect/page/0/size/10",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"es",
+								"collect",
+								"page",
+								"0",
+								"size",
+								"10"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "获取评论",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:10010/api/v1/comments/54",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"comments",
+								"54"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "进行评论",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"userId\": 26,\n    \"kcId\": 54,\n    \"commentsContent\": \"这是一条子评论\",\n    \"isParentCommentId\": 7  \n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:10010/api/v1/comments/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"comments",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "获取用户知识内容总数",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:10010/api/v1/userAnalyze/know/sum/31",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"userAnalyze",
+								"know",
+								"sum",
+								"31"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "获取用户知识内容总数、总浏览量、点赞量、、收藏量",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:10010/api/v1/userknow/26",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"userknow",
+								"26"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "对知识内容进行点赞",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "\n{\n    \"userId\": 26,\n    \"kcId\": 52\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:10010/api/v1/likes/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"likes",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "对知识内容进行收藏",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "\n{\n    \"userId\": 26,\n    \"kcId\": 52\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:10010/api/v1/collect/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"collect",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "知识领域百分比",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:10010/api/v1/category/26",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"category",
+								"26"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "根据用户ID查询知识内容",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:10010/api/v1/es/26/page/0/size/10",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"es",
+								"26",
+								"page",
+								"0",
+								"size",
+								"10"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "根据用户ID查询它的收藏内容",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:10010/api/v1/know/collect/26/page/0/size/10",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"know",
+								"collect",
+								"26",
+								"page",
+								"0",
+								"size",
+								"10"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "批量删除日志",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\n    \"1326\",\n    \"1327\"\n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:10010/api/v1/logs/delete/batch",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"logs",
+								"delete",
+								"batch"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "上传文件",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "userId",
+									"value": "28",
+									"type": "text"
+								},
+								{
+									"key": "file",
+									"type": "file",
+									"src": "postman-cloud:///1eeb82e8-d3e2-4290-8299-07d14086c6ad"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:10010/api/v1/file/insert",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"file",
+								"insert"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "查询用户上传的文件",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8140/api/v1/file/28",
+							"host": [
+								"localhost"
+							],
+							"port": "8140",
+							"path": [
+								"api",
+								"v1",
+								"file",
+								"28"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "内容敏感率",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:10010/api/v1/analyzeknow/percentage/sensitive",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"analyzeknow",
+								"percentage",
+								"sensitive"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "平台总观看量",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:10010/api/v1/analyzeknow/sum/view",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"analyzeknow",
+								"sum",
+								"view"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "平台用户总数",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:10010/api/v1/analyzeuser/user/count",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"analyzeuser",
+								"user",
+								"count"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "获取平台知识内容总数",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:10010/api/v1/analyzeknow/count/know",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"analyzeknow",
+								"count",
+								"know"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "获取指定年份的每月文章发表量",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:10010/api/v1/analyzeknow/year/2024",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"analyzeknow",
+								"year",
+								"2024"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "获取指定年份的每月用户注册量",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:10010/api/v1/analyzeuser/register/year/2024",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"analyzeuser",
+								"register",
+								"year",
+								"2024"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "条件查询",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:10010/api/v1/es/query/page/0/size/10",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"es",
+								"query",
+								"page",
+								"0",
+								"size",
+								"10"
+							],
+							"query": [
+								{
+									"key": "userId",
+									"value": "31",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "举报管理",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"reporterId\": 2,\n    \"kcId\": 75,\n    \"content\": \"这篇文章包含敏感词\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:10010/api/v1/report/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"report",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "查询举报数据",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:10010/api/v1/report/page/0/size/10?isHandle=false",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"report",
+								"page",
+								"0",
+								"size",
+								"10"
+							],
+							"query": [
+								{
+									"key": "isHandle",
+									"value": "false"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "删除举报数据",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:10010/api/v1/report/5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "10010",
+							"path": [
+								"api",
+								"v1",
+								"report",
+								"5"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

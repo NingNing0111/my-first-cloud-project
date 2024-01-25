@@ -1,0 +1,32 @@
+server:
+  port: 8110
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  application:
+    name: uaa
+  data:
+    redis:
+      host: xxx.xx.xx.xx
+      port: 6379
+
+  rabbitmq:
+    port: 5672
+    host: xx.xx.xx.xx
+    virtual-host: /share
+    username: username
+    password: password
+    listener:
+      simple:
+        prefetch: 1
+
+application:
+  security:
+    jwt:
+      secretKey: 404E635266556A586E3272357538782F413F44284FFB4B6250645367566B5970
+      expiration: 86400000 # 1天的Token有效期
+
